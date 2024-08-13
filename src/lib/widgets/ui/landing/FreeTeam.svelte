@@ -21,13 +21,13 @@
           <div class="flex-wrapper flex-align-center flex-justify-center flex-children-wrap-tab">
             <div class="team-item animation-slideup-d300">
               <div class="margin-bottom margin-medium">
-                <img src="/images/6220f07bfcf6d14f3548208f_enchanted.jpg" loading="lazy" alt="" sizes="100vw" srcset="images/6220f07bfcf6d14f3548208f_enchanted-p-500.jpeg 500w, images/6220f07bfcf6d14f3548208f_enchanted-p-800.jpeg 800w, images/6220f07bfcf6d14f3548208f_enchanted-p-1080.jpeg 1080w, images/6220f07bfcf6d14f3548208f_enchanted.jpg 1500w" class="team-member-img">
+                <img src="" loading="lazy" alt="" sizes="100vw"  class="team-member-img">
               </div>
               <div class="team-social-links">
-                <a href="https://www.instagram.com/enchanted_nft/" target="_blank" class="sm-icon-container w-inline-block">
+                <a href="/" target="_blank" class="sm-icon-container w-inline-block">
                   <img src="/images/6215c9c68ef1535c8d8ae7b8_IG-icon.svg" loading="lazy" width="25" alt="">
                 </a>
-                <a href="https://twitter.com/Enchanted_NFT" target="_blank" class="sm-icon-container w-inline-block">
+                <a href="/" target="_blank" class="sm-icon-container w-inline-block">
                   <img src="/images/6215c9c68ef153ca728ae7c1_TWITTER-icon.svg" loading="lazy" width="25" alt="">
                 </a>
               </div>
@@ -38,16 +38,16 @@
                 </p>
               </div>
             </div>
-            
+
             <div class="team-item hide">
               <div class="margin-bottom margin-medium">
-                <img src="/images/6215c9c68ef15327ac8ae7c7_Team-img.jpg" loading="lazy" alt="" sizes="100vw" srcset="images/6215c9c68ef15327ac8ae7c7_Team-img-p-500.jpeg 500w, images/6215c9c68ef15327ac8ae7c7_Team-img.jpg 572w" class="team-member-img">
+                <img src="" loading="lazy" alt="" sizes="100vw"  class="team-member-img">
               </div>
               <div class="team-social-links">
-                <a href="#" class="sm-icon-container w-inline-block">
+                <a href="/" class="sm-icon-container w-inline-block">
                   <img src="/images/6215c9c68ef1535c8d8ae7b8_IG-icon.svg" loading="lazy" width="25" alt="">
                 </a>
-                <a href="https://twitter.com/jessegalati" target="_blank" class="sm-icon-container w-inline-block">
+                <a href="/" target="_blank" class="sm-icon-container w-inline-block">
                   <img src="/images/6215c9c68ef153ca728ae7c1_TWITTER-icon.svg" loading="lazy" width="25" alt="">
                 </a>
               </div>

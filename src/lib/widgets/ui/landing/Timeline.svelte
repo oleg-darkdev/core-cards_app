@@ -4,7 +4,7 @@
 
 
 <section id="roadmap" class="section-timeline">
-  <img src="/images/6220a6f4894dd75a513927f3_smoke-vid-unscreen%20%282%29.gif" loading="lazy" alt="" class="smoke-video hide">
+  <img src="" loading="lazy" alt="" class="smoke-video">
   <!-- <div data-poster-url="https://assets.website-files.com/6215c9c68ef1535cf78ae7af/621fa883c3b03cd54aa3acc1_smoke-vid-poster-00001.jpg" data-video-urls="https://assets.website-files.com/6215c9c68ef1535cf78ae7af/621fa883c3b03cd54aa3acc1_smoke-vid-transcode.mp4,https://assets.website-files.com/6215c9c68ef1535cf78ae7af/621fa883c3b03cd54aa3acc1_smoke-vid-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="smoke-video hide w-background-video w-background-video-atom">
     <video id="93724d6a-5d5a-f0b6-3496-e07dfbd1c171-video" autoplay="" loop="" style="background-image:url(" https:="" assets.website-files.com="" 6215c9c68ef1535cf78ae7af="" 621fa883c3b03cd54aa3acc1_smoke-vid-poster-00001.jpg")"="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
       <source src="media/621fa883c3b03cd54aa3acc1_smoke-vid-transcode.mp4" data-wf-ignore="true">
