@@ -1,5 +1,5 @@
 <script>
-  import {cards} from '$shared';
+  import {blueCards} from '$shared';
 </script>
 
 
@@ -36,7 +36,7 @@
 
     <div class="" >
       <div class="flex flex-row overflow-x-hidden">
-        {#each cards as {img, title, desc}}
+        {#each blueCards.cards as {img, title, desc}}
           <a href="">
             <div class="transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8 ">
                 <img class="object-cover object-center w-full  rounded-xl" src="{img}" alt="{title} card image">
@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="margin-top margin-large text-align-center">
-      <a href="/" target="_blank" class="btn w-button">Lorem impsum
+      <a href="/" target="_blank" class="btn bg-blue w-button">Lorem impsum
       </a>
     </div>
   </div>

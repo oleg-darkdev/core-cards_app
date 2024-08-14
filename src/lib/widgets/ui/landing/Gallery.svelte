@@ -4,7 +4,7 @@
   } from '$app/environment'
 
 
-  import {cards} from '$shared';
+  import {yellowCards} from '$shared';
 </script>
 
 <section class="section-image-slider-brc">
@@ -27,7 +27,7 @@
 
     <div class="mask-images w-slider-mask">
 
-      {#each cards as {img, title, desc}}
+      {#each yellowCards.cards as {img, title, desc}}
       <div class="slide-2 w-slide rounded-xl">
         <img src="{img}" loading="lazy" width="383" alt="{title} card image" class="image-3 rounded-xl">
       </div>

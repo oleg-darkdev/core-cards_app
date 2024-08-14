@@ -71,7 +71,7 @@
                   <h5 class="heading-xsmall uppercase">
                     {data.q}
                   </h5>
-                  <img src="/images/arrow-down.svg" loading="lazy" alt="arrow down" class="transition duration-300 ease-in-out delay-150 group-hover:bg-[#f99d1c] accordion-arrow {data.showAnswer ? 'rotate-180': 'rotate-0'}">
+                  <img src="/images/arrow-down.svg" loading="lazy" alt="arrow down" class="transition duration-300 ease-in-out delay-150 group-hover:bg-[#e84926] accordion-arrow {data.showAnswer ? 'rotate-180': 'rotate-0'}">
                 </div>
 
                 {#if data.showAnswer}

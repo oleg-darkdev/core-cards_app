@@ -76,7 +76,7 @@
               <br>dummy text of the.
             </h1>
           </div>
-          <a href="/" target="_blank" class="btn  w-button">
+          <a href="/" target="_blank" class="btn bg-blue  w-button">
             Download for free
           </a>
         </div>
@@ -89,7 +89,7 @@
 <style>
 .section-hero {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 75%, #0e0e13), linear-gradient(#0e0e13 24%, rgba(255, 255, 255, 0) 66%), url("./images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 75%, #0e0e13), linear-gradient(#0e0e13 24%, rgba(255, 255, 255, 0) 66%), url("./images/hero.png");
   background-position: 0 0, 0 0, 50% 80px;
   background-size: auto, auto, cover;
   margin-top: 0;
