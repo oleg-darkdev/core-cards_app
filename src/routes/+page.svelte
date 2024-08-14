@@ -1,6 +1,6 @@
 <script>
 	// import {  } from '$lib/shared';
-	import { Footer, Header, About, Hero, Timeline, FreeTeam, Gallery, Faq, Contact,} from '$lib/widgets';
+	import { Footer, Header, About, Hero, Timeline, Team, Gallery, Faq, Contact,} from '$lib/widgets';
   // import {  } from '$lib/entities'
 </script>
 
@@ -46,7 +46,7 @@
     <Timeline />
 
 
-    <FreeTeam />
+    <Team />
 
 
     <Gallery />
