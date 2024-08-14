@@ -2091,11 +2091,53 @@ body {
   justify-content: space-between;
 }
 
+.bg-yellow {
+  background-color: #f99d1c;
+}
+
+.bg-blue {
+  background-color: #2cade3;
+}
+
+.bg-red {
+    background-color: #e84926;
+}
+
+.bg-green {
+    background-color: #45ad4b;
+}
+
+.bg-orange {
+    background-color: #f59c21;
+}
+
+
+.text-yellow {
+  color: #f99d1c;
+}
+
+.text-blue {
+  color: #2cade3;
+}
+
+.text-red {
+    color: #e84926;
+}
+
+.text-green {
+    color: #45ad4b;
+}
+
+.text-orange {
+    color: #f59c21;
+}
+
+
 .btn {
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #f99d1c;
+
   border-radius: 16px;
   margin-bottom: 0;
   padding: 20px 25px;
@@ -2157,32 +2199,6 @@ body {
   line-height: 20px;
 }
 
-.team-item {
-  max-width: 350px;
-  background-color: #000;
-  border: 1px #f99d1c;
-  border-radius: 16px;
-  flex: 0 auto;
-  margin: 20px;
-  padding: 20px;
-}
-
-.team-item.hide {
-  display: none;
-}
-
-.team-member-img {
-  object-fit: contain;
-  border-radius: 16px;
-  padding-top: 0;
-}
-
-.team-social-links {
-  text-align: right;
-  margin-top: -54px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 
 
 
@@ -2829,12 +2845,7 @@ body {
   }
 
 
-  .team-item {
-    max-width: 300px;
-    flex: 0 50%;
-    align-self: stretch;
-    padding: 20px;
-  }
+
 
   /* .linear-gradient {
     background-image: linear-gradient(90deg, rgba(254,255,0,1) 0%, rgba(255,162,0,1) 46%);
@@ -3050,10 +3061,6 @@ body {
     justify-content: center;
   }
 
-  .team-item {
-    max-width: 350px;
-    margin: 10px;
-  }
 
   .timeline_item {
     width: 100%;
@@ -3134,12 +3141,6 @@ body {
     margin-right: 10px;
   }
 
-  .team-item {
-    max-width: 100%;
-    flex: none;
-    align-self: auto;
-    margin: 0 0 20px;
-  }
 
   .linear-gradient {
     padding: 60px 10px;
@@ -3276,7 +3277,7 @@ body {
     background-image: linear-gradient(270deg, rgba(14, 14, 19, .82), rgba(0, 0, 0, 0) 2%), linear-gradient(to right, rgba(14, 14, 19, .71), rgba(0, 0, 0, 0) 6%, rgba(0, 0, 0, 0) 78%);
   }
 
- 
+
 }
 
 #w-node-_7a6aa742-e2f3-ba79-8be6-4fdb25718acf-a98ae7b0, #w-node-_45ed133a-c807-af1a-3703-91eb6649d61c-a98ae7b0, #w-node-e46c7deb-531b-b8e6-4b74-2625f49f972b-a98ae7b0, #w-node-a9879149-d680-9b58-66e6-6d61f92ccb41-a98ae7b0, #w-node-_6fb326bb-b861-438b-50b1-abd6a000455c-a98ae7b0 {
