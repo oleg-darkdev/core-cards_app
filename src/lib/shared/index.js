@@ -1,5 +1,6 @@
 import navigation from './data/navigation';
-import cards from './data/cards';
+import {allCardsGallery, redCards, yellowCards, blueCards, greenCards, orangeCards} from './data/cards';
+import cardCategories from './data/cardCategories';
 
 
-export { navigation, cards};
+export { navigation, allCardsGallery, redCards, yellowCards, blueCards, greenCards, orangeCards, cardCategories};
