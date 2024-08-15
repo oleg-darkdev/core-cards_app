@@ -8,12 +8,8 @@ const navigation = [
       link: '#about'
     },
     {
-      title: '',
-      link: ''
-    },
-    {
-      title: '',
-      link: ''
+      title: 'Roadmap',
+      link: '#roadmap'
     },
     {
       title: 'Contact',
