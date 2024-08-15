@@ -2660,9 +2660,7 @@ body {
   padding-bottom: 12px;
 }
 
-.list {
-  padding-left: 40px;
-}
+
 
 .list-2, .list-3, .list-4 {
   padding-left: 20px;
@@ -2880,9 +2878,6 @@ body {
     width: 35%;
   }
 
-  .list {
-    padding-left: 0;
-  }
 
   .gradient-slider {
     background-image: linear-gradient(270deg, rgba(14, 14, 19, .82) 25%, rgba(0, 0, 0, 0) 36%), linear-gradient(to right, rgba(14, 14, 19, .71) 31%, rgba(0, 0, 0, 0) 38%, rgba(0, 0, 0, 0) 78%);
@@ -2937,9 +2932,7 @@ body {
     width: 100%;
   }
 
-  .list {
-    padding-left: 19px;
-  }
+
 
   .gradient-slider {
     background-image: linear-gradient(270deg, rgba(14, 14, 19, .82), rgba(0, 0, 0, 0) 32%), linear-gradient(to right, rgba(14, 14, 19, .71), rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0) 78%);
