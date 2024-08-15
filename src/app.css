@@ -3168,7 +3168,7 @@ body {
 
 @font-face {
   font-family: 'Akira expanded demo';
-  src: url('./fonts/akira.otf') format('opentype');
+  src: url('/fonts/akira.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
