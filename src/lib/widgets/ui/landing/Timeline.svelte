@@ -48,40 +48,21 @@
             <div class="timeline_circle">
             </div>
           </div>
-          <div class="timeline_right">
-            <div class="margin-bottom-xlarge">
-              <ul role="list" class="list">
+          <div class="timeline_right w-full">
+            <div class="margin-bottom-xlarge ">
+              <ul role="list" class="list w-full">
                 {#each items as item}
-                  <li class="justify-start  pb-4  flex flex-row">
+                  <li class="w-full pb-4 justify-start  flex flex-row">
                     <div class="list_circle mr-6 mt-2"/>
-                    <p class='paragraph'>{item}</p>
+                    <p class='paragraph w-full'>{item}</p>
                   </li>
                 {/each}
               </ul>
             </div>
           </div>
         </div>
-        <!-- <div data-w-id="45ed133a-c807-af1a-3703-91eb6649d616" class="timeline_item">
-          <div id="w-node-_45ed133a-c807-af1a-3703-91eb6649d617-a98ae7b0" class="timeline_left">
-            <div class="timeline_date-text">Phase 2
-            </div>
-          </div>
-          <div id="w-node-_45ed133a-c807-af1a-3703-91eb6649d61a-a98ae7b0" class="timeline_centre">
-            <div class="timeline_circle">
-            </div>
-          </div>
-          <div id="w-node-_45ed133a-c807-af1a-3703-91eb6649d61c-a98ae7b0" class="timeline_right">
-            <div class="margin-bottom-xlarge">
-              <ul role="list" class="list">
-                <li class="list-item paragraph">Holders only IRL event
-                </li>
-                <li class="list-item paragraph">Bull Run Crew Dance Contest
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div> -->
         {/each}
+
       </div>
     </div>
   </div>
@@ -192,15 +173,28 @@
    background-color: #f99d1c;
   position: absolute;
 }
+.list {
+  padding-left: 40px;
+}
+@media screen and (max-width: 991px) {
+  .timeline_circle {
+    display: none;
+  }
+  .list {
+    padding-left: 0;
+  }
+}
 
 
 @media screen and (max-width: 767px) {
   .timeline_item {
     width: 100%;
-    grid-template-columns: 64px 1fr;
+    grid-template-columns: 360px 1fr;
     padding-bottom: 40px;
   }
-
+  .list {
+    padding-left: 19px;
+  }
   .timeline_centre {
     justify-content: flex-start;
   }
@@ -221,7 +215,7 @@
 }
 @media screen and (max-width: 479px) {
   .timeline_item {
-    grid-template-columns: 48px 1fr;
+    /* grid-template-columns: 64px 1fr; */
     line-height: 18px;
   }
 
@@ -230,6 +224,7 @@
   }
     .timeline_date-text {
     font-size: 26px;
+    margin-left: 20px;
   }
 
 }
