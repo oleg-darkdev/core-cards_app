@@ -28,20 +28,9 @@
               <div class="slider w-slider">
                 <div class="mask w-slider-mask">
                   <div class="slide w-slide">
-                    <img src="/images/6216375abc7d6d8bc47622bd_landing-section-img1.png" loading="lazy" alt="">
+                    <img src="" loading="lazy" alt="">
                   </div>
-                  <div class="slide w-slide">
-                    <img src="/images/6216375abc7d6d8bc47622bd_landing-section-img1.png" loading="lazy" alt="">
-                  </div>
-                  <div class="slide w-slide">
-                    <img src="/images/6216375abc7d6d8bc47622bd_landing-section-img1.png" loading="lazy" alt="">
-                  </div>
-                  <div class="slide w-slide">
-                    <img src="/images/6216375abc7d6d8bc47622bd_landing-section-img1.png" loading="lazy" alt="">
-                  </div>
-                  <div class="slide w-slide">
-                    <img src="/images/6216375abc7d6d8bc47622bd_landing-section-img1.png" loading="lazy" alt="">
-                  </div>
+
                 </div>
                 <div class="left-arrow w-slider-arrow-left">
                   <div class="hide-desktop w-icon-slider-left">
