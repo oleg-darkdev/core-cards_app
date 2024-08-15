@@ -4,7 +4,7 @@
 </script>
 
 
-<section id="contact" class="">
+<section id="" class="">
   <div class="background-color-black">
     <div class="page-padding">
       <div class="padding-vertical padding-large">
