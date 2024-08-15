@@ -2,7 +2,7 @@
   //  import {team} from '$shared';
 </script>
 
-<section id="" class="section-our-team">
+<section id="contact" class="section-our-team">
   <div class="background-color-black">
     <div class="page-padding">
       <div class="container-large">
@@ -39,7 +39,8 @@
               </div>
             </div>
 
-            <div class="team-item max-h-40">
+            <div class="flex flex-col">
+              <div class="team-item max-h-40">
               <div class="text-align-center">
                 <p class="text-size-medium ">
                  If you have ideas for collaboration - say me Hello.
@@ -48,6 +49,19 @@
                   Get in touch
                 </a>
               </div>
+            </div>
+
+            <div class="partners-item flex items-start align-start flex-col max-h-64">
+              <a target="_blank" href="/">
+                <img src="/images/logos/44games.svg" class='w-full h-20' alt="44Games logo">
+              </a>
+
+              <a target="_blank" href="https://darkdev-foundation.vercel.app/">
+                <img src="/images/logos/darkdev.svg" class='w-full h-20' alt="DarkDev logo">
+              </a>
+
+            </div>
+
             </div>
           </div>
         </div>
@@ -63,7 +77,7 @@
 }
 
 
-.team-item {
+.team-item, .partners-item {
   max-width: 350px;
   background-color: #000;
   border: 1px #f99d1c;
@@ -87,7 +101,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .team-item {
+  .team-item, .partners-item {
     max-width: 300px;
     flex: 0 50%;
     align-self: stretch;
@@ -97,7 +111,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .team-item {
+  .team-item, .partners-item {
     max-width: 350px;
     margin: 10px;
   }
@@ -105,7 +119,7 @@
 
 
 @media screen and (max-width: 479px) {
-  .team-item {
+  .team-item, .partners-item {
     max-width: 100%;
     flex: none;
     align-self: auto;
