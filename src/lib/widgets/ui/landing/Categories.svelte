@@ -10,10 +10,10 @@
           <div class="text-align-center">
             <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">Lorem Ipsum has been the industry's standard
             </h3>
-            <h3 class="heading-large uppercase animation-slideup-d200">Cards categories
+            <h3 class="heading-large uppercase ">Cards categories
             </h3>
             <div class="max-width-large">
-              <div class="paragraph animation-slideup-d200">
+              <div class="paragraph ">
                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </div>
             </div>

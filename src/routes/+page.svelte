@@ -28,11 +28,11 @@
                 <div class="margin-bottom margin-medium">
                   <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">To the moon
                   </h3>
-                  <h3 class="heading-xlarge uppercase animation-slideup-d200">Roadmap
+                  <h3 class="heading-xlarge uppercase ">Roadmap
                   </h3>
                 </div>
                 <div class="max-width-large">
-                  <div class="paragraph animation-slideup-d200">From headlining massive events around the world to dance competitions in the metaverse to producing hit songs, no one does it bigger than BRC! #WGMI
+                  <div class="paragraph ">From headlining massive events around the world to dance competitions in the metaverse to producing hit songs, no one does it bigger than BRC! #WGMI
                     <br>
                   </div>
                 </div>
