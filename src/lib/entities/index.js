@@ -1,4 +1,5 @@
-// import FactSheet from './ui/landing/FactSheet.svelte';
+import DotedList from './ui/landing/DotedList.svelte';
+import ListWithImgPointer from './ui/landing/ListWithImgPointer.svelte';
 
 
-// export { FactSheet };
+export { DotedList, ListWithImgPointer };
