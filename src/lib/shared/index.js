@@ -5,6 +5,7 @@ import timeline from './data/timeline';
 import useCases from './data/useCases';
 import targetAudience from './data/targetAudience';
 import community from './data/community';
+import faq from './data/faq';
 
 
-export { navigation, community, timeline, useCases,targetAudience,  allCardsGallery, redCards, yellowCards, blueCards, greenCards, orangeCards, cardCategories};
+export { faq, navigation, community, timeline, useCases,targetAudience,  allCardsGallery, redCards, yellowCards, blueCards, greenCards, orangeCards, cardCategories};
