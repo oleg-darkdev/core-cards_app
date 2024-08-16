@@ -1,5 +1,8 @@
 <script>
   import {blueCards} from '$shared';
+  import { DotedList } from '$lib/entities'
+	import { useCases, targetAudience } from '$lib/shared';
+
 </script>
 
 
@@ -11,11 +14,11 @@
           <div class="text-align-center">
             <div class="margin-bottom margin-medium">
               <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup hide">
-                #HODL
+                #coreCARDS
               </h3>
-              <h2 class="heading-xlarge custom-heading-mobile-lanscape uppercase animation-slideup-d200">
+              <h2 class="heading-xlarge custom-heading-mobile-lanscape uppercase ">
                 it's time to get this
-                <br>party started
+                <br>facilitation party started
               </h2>
             </div>
             <div class="margin-bottom margin-medium">
@@ -23,10 +26,23 @@
                 <div class="margin-bottom margin-large">
                   <div class="max-width-large">
                     <p class="paragraph animation-slideup-d300">
-                      Watch out! The NFT bull run has gotten so out of control that 10,000 dancing bulls have been let loose on the blockchain! Armed with their own music, these funky bulls have created their own dance crew: the Bull Run Crew. Join the BRC as they party their way through the metaverse - and beyond!
+                      Watch out! If facilitation is out of control, it's not right at all, it shouldn't be - and we, a team of facilitators and designers are racing to your rescue, armed with our very own deck of cards for facilitation in monkey design.
                     </p>
                   </div>
                 </div>
+              </div>
+              <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">
+                Use these cards on:
+              </h3>
+              <div class="margin-bottom-xlarge max-w-sm mx-auto  mb-20">
+                <DotedList items={useCases}/>
+              </div>
+
+              <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">
+                They're especially <br /> good for you:
+              </h3>
+              <div class="margin-bottom-xlarge max-w-sm mx-auto">
+                <DotedList items={targetAudience}/>
               </div>
             </div>
           </div>
