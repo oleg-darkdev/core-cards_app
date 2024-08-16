@@ -22,9 +22,9 @@
 
           <div class="flex justify-center">
           {#each community as member}
-            <div style="background-image: url(/images/member.svg);  background-repeat: no-repeat;" class="object-cover flex justify-center items-center object-center rounded-t-xl h-48 w-48" alt="">
+            <div style="background-image: url(/images/member.svg);  background-repeat: no-repeat;" class=" flex justify-center items-center object-center rounded-t-xl lg:h-48 md:w-48 w-32 h-32" alt="">
                 <img
-              class="mask mask-squircle h-20 "
+              class="mask mask-squircle lg:h-20 md:h-16 h-16"
               src="/images/community/{member}" />
             </div>
           {/each}
