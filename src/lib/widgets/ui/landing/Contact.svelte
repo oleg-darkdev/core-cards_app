@@ -13,13 +13,13 @@
             <div class="max-width-large">
               <div class="margin-bottom margin-large">
                 <h4 class="text-size-large uppercase ">
-                  <strong class="text-weight-bold">LET ME IN!
-                    <br>I WANT TO BE PART OF THE crew !
+                  <strong class="text-weight-bold">Any ideas??!
+                    <br>  We're in the same universe - you must contact withs us.
                   </strong>
                 </h4>
               </div>
-              <a href="/" target="_blank" class="btn btn-white w-button">
-                Lorem imsum
+              <a href="#contact" class="btn btn-white w-button">
+                Contact
               </a>
             </div>
           </div>
