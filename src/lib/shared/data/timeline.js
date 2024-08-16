@@ -8,7 +8,7 @@ const timeline = [
     items: [].concat(redCards.cards, greenCards.cards[3], greenCards.cards[4])
   },
   {
-    title: 'Alfa v_',
+    title: 'Alfa - 0_1_1',
     items: [].concat(orangeCards.cards[0], orangeCards.cards[1])
   },
   {
