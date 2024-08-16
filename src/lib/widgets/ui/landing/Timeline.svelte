@@ -1,33 +1,7 @@
 <script>
-  const timeline = [
-    {
-      title: 'Phase 1',
-      items: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-      ]
-    },
-    {
-      title: 'Phase 2',
-      items: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-      ]
-    },
-    {
-      title: 'Phase 3',
-      items: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-      ]
-    },
-  ]
+  import { ListWithImgPointer } from '$lib/entities'
+	import { timeline } from '$lib/shared';
+
 </script>
 
 
@@ -49,16 +23,7 @@
             </div>
           </div>
           <div class="timeline_right w-full">
-            <div class="margin-bottom-xlarge ">
-              <ul role="list" class="list w-full">
-                {#each items as item}
-                  <li class="w-full pb-4 justify-start  flex flex-row">
-                    <div class="list_circle mr-6 mt-2"/>
-                    <p class='paragraph w-full'>{item}</p>
-                  </li>
-                {/each}
-              </ul>
-            </div>
+            <ListWithImgPointer {items}/>
           </div>
         </div>
         {/each}
@@ -125,18 +90,6 @@
   box-shadow: 0 0 0 8px #0a0a0a;
 }
 
-.list_circle {
-  width: 15px;
-  height: 15px;
-  max-height: 15px;
-  max-width: 15px;
-  min-height: 15px;
-  min-width: 15px;
-  background-color: #fff;
-  border-radius: 100%;
-  box-shadow: 0 0 0 8px #0a0a0a;
-}
-
 .timeline_date-text {
   color: #fff;
   text-align: center;
@@ -172,9 +125,6 @@
   color: #f99d1c;
    background-color: #f99d1c;
   position: absolute;
-}
-.list {
-  padding-left: 40px;
 }
 @media screen and (max-width: 991px) {
   .timeline_circle {
