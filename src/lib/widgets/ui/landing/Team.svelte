@@ -2,7 +2,7 @@
    import {community} from '$shared';
 </script>
 
-<section id="contact" class="section-our-team">
+<section id="" class="section-our-team">
   <div class="background-color-black">
     <div class="page-padding">
       <div class="container-large">
@@ -39,6 +39,8 @@
             <h3 class="heading-large uppercase">Hello!
               <br> <a href='https://oleg-darkdev.vercel.app/' class='heading-style-h1 text-color-creme text-style-link' target="_blank" >I`am Oleg Medvedev</a>
             </h3>
+
+            <a name="contact"></a>
             <div class="max-width-large">
               <div class="paragraph">
                  Product Web Engineer-IT Enthusiast, Gamification Coach, and JavaScript Programmer with across various technologies, <span class="text-weight-bold">4 years of experience in board game development and 3 years in web application development</span> including startups and open-source projects.  Engaged in merging the digital and physical worlds to create engaging and educational experiences.
