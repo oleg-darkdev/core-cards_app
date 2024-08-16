@@ -31,17 +31,8 @@
         </div>
         <div class="nav-social-media-icons social-right-space">
           <a href="/" target="_blank" class="sm-icon-container icon-bg-blue w-inline-block">
-            <img src="/images/6215c9c68ef1534b7e8ae7b7_DC-icon.svg" loading="lazy" width="40" alt="" class="image">
+            <img src="/images/621620a6ca1ed8d5f16422ef_IG-icon.svg" loading="lazy" width="24" alt="instagram icon">
           </a>
-          <!-- <a href="https://twitter.com/BullRunCrew" target="_blank" class="sm-icon-container icon-bg-blue w-inline-block">
-            <img src="/images/6215c9c68ef153ca728ae7c1_TWITTER-icon.svg" loading="lazy" width="20" alt="" class="image">
-          </a>
-          <a href="https://instagram.com/bullruncrew" target="_blank" class="sm-icon-container icon-bg-blue w-inline-block">
-            <img src="/images/621620a6ca1ed8d5f16422ef_IG-icon.svg" loading="lazy" width="24" alt="">
-          </a>
-          <a href="#" class="sm-icon-container icon-bg-blue w-inline-block">
-            <img src="/images/6221a310a06c83054e5597e8_new-medium-icon.svg" loading="lazy" width="24" alt="">
-          </a> -->
         </div>
         <div class="h-14 w-14 pt-4 menu-btn" on:click={()=> showMenu = !showMenu }>
           <img src="/images/menu-icon.svg" class='h-full w-full' alt="menu">

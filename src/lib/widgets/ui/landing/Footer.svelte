@@ -23,7 +23,7 @@
         <div class="nav-social-media-icons">
 
           <a href="/" target="_blank" class="sm-icon-container icon-bg-blue w-inline-block">
-            <img src="/images/6215c9c68ef1534b7e8ae7b7_DC-icon.svg" loading="lazy" width="40" alt="" class="image">
+            <img src="/images/621620a6ca1ed8d5f16422ef_IG-icon.svg" loading="lazy" width="40" alt="instagram icon" class="image">
           </a>
 
         </div>
@@ -37,8 +37,8 @@
       <div class="flex-wrapper flex-justify-space-between flex-vertical-tab text-align-center-tab">
         <div class="footer-bottom text-color-white">© 2024 CORE Cards.
         </div>
-        <div class="footer-bottom text-color-white"> Lorem impsum
-          <a href="/" target="_blank" class="credit-link text-weight-semibold"> simply dummy text.
+        <div class="footer-bottom text-color-white"> Production by
+          <a href="/" target="_blank" class="credit-link text-weight-semibold"> 44Games.
           </a>
         </div>
       </div>
