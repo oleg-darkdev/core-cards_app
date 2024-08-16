@@ -8,21 +8,7 @@
     <div class="container-large">
       <div class="padding-vertical padding-large">
         <div class="flex-wrapper flex-align-center flex-justify-space-between flex-vertical-tab">
-          <div class="flex-child-50 flex-child-100-tab text-align-center-tab">
-            <div class="margin-bottom margin-medium">
-              <h3 class="heading-xsmall uppercase text-letter-spacing text-gradient animation-slideleft">Welcome to the
-              </h3>
-              <h3 class="heading-xlarge uppercase animation-slideleft-d200">Bul run crew
-              </h3>
-            </div>
-            <div class="margin-bottom margin-large">
-              <p class="paragraph animation-slideleft-d200">10,000 fully animated bull avatars living in metaverse. Each dancing to the tune of their own soundtrack the bulls come ready to party and only know 'TO THE MOON'. From the beach to the streets the Bulls party never stops and nothing can come between then and a new ATH!
-              </p>
-            </div>
-            <a href="/" class="btn hide-tab animation-slideleft-d200 w-button">
-              Download for free
-            </a>
-          </div>
+
           <div class="flex-child-50 flex-child-100-tab">
             <div class="text-align-center">
               <div class="slider w-slider">
@@ -43,7 +29,7 @@
                 <div class="slide-nav w-slider-nav w-round">
                 </div>
               </div>
-              <a href="#" class="btn show-tab w-button">Download for free
+              <a href="#" class="btn show-tab w-button">More ....
               </a>
             </div>
           </div>
@@ -61,12 +47,12 @@
         <div class="text-align-center">
           <div class="margin-bottom margin-medium">
             <h1 class="heading-xlarge custom-heading-mobile-lanscape uppercase animation-slideup">
-              Lorem Ipsum is simply
-              <br>dummy text of the.
+              CORE cards for
+              <br> important communicating.
             </h1>
           </div>
-          <a href="/" target="_blank" class="btn bg-blue  w-button">
-            Download for free
+          <a href="#about" class="btn bg-blue  w-button">
+            More ....
           </a>
         </div>
       </div>
