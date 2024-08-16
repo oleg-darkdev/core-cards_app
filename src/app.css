@@ -2353,9 +2353,15 @@ body {
 .heading-xlarge {
   color: #fff;
   font-family: Akira expanded demo, sans-serif;
-  font-size: 4rem;
   font-weight: 600;
-  line-height: 68px;
+}
+
+@media screen and (min-width: 991px) {
+.heading-xlarge {
+  font-family: Akira expanded demo, sans-serif;
+  font-weight: 600;
+}
+
 }
 
 .paragraph {
@@ -2438,11 +2444,11 @@ body {
   font-weight: 600;
 }
 
-.heading-small.uppercase.text-letter-spacing.text-gradient.animation-slideup {
+.heading-small.uppercase.text-letter-spacing.text-gradient. {
   font-family: Akira expanded demo, sans-serif;
 }
 
-.heading-small.uppercase.text-letter-spacing.text-gradient.animation-slideup.hide {
+.heading-small.uppercase.text-letter-spacing.text-gradient..hide {
   display: none;
 }
 
@@ -2712,6 +2718,16 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+
+.heading-large {
+  color: #fff;
+  font-family: Akira expanded demo, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
   .nav-social-media-icons.social-right-space {
     display: none;
   }
@@ -3004,12 +3020,8 @@ body {
     padding-right: 1rem;
   }
 
-  .heading-xlarge {
-    font-size: 2.4rem;
-    line-height: 50px;
-  }
 
-  .heading-xlarge.custom-heading-mobile-lanscape {
+  .heading-xlarge {
     font-size: 1.8rem;
     line-height: 43px;
   }

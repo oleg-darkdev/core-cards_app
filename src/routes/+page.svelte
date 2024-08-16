@@ -26,7 +26,7 @@
             <div class="padding-vertical padding-large">
               <div class="text-align-center">
                 <div class="margin-bottom margin-medium">
-                  <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">To the moon
+                  <h3 class="heading-small uppercase text-letter-spacing text-gradient ">To the moon
                   </h3>
                   <h3 class="heading-xlarge uppercase ">Roadmap
                   </h3>

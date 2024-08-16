@@ -4,8 +4,8 @@
 
 
 <div class="margin-bottom-xlarge ">
-  <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">
-      New cards added
+  <h3 class="heading-small uppercase text-letter-spacing text-gradient ml-6">
+    New cards added:
   </h3>
 
   <ul role="list" class="list w-full">

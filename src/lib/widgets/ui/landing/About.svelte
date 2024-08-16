@@ -13,7 +13,7 @@
         <div class="padding-vertical padding-large">
           <div class="text-align-center">
             <div class="margin-bottom margin-medium">
-              <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup hide">
+              <h3 class="heading-small uppercase text-letter-spacing text-gradient  hide">
                 #coreCARDS
               </h3>
               <h2 class="heading-xlarge custom-heading-mobile-lanscape uppercase ">
@@ -25,20 +25,20 @@
               <div class="max-width-large">
                 <div class="margin-bottom margin-large">
                   <div class="max-width-large">
-                    <p class="paragraph animation-slideup-d300">
+                    <p class="paragraph -d300">
                       Watch out! If facilitation is out of control, it's not right at all, it shouldn't be - and we, a team of facilitators and designers are racing to your rescue, armed with our very own deck of cards for facilitation in monkey design.
                     </p>
                   </div>
                 </div>
               </div>
-              <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">
+              <h3 class="heading-small uppercase text-letter-spacing text-gradient ">
                 Use these cards on:
               </h3>
               <div class="margin-bottom-xlarge max-w-sm mx-auto  mb-20">
                 <DotedList items={useCases}/>
               </div>
 
-              <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">
+              <h3 class="heading-small uppercase text-letter-spacing text-gradient ">
                 They're especially <br /> good for you:
               </h3>
               <div class="margin-bottom-xlarge max-w-sm mx-auto">

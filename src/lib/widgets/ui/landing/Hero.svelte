@@ -11,7 +11,7 @@
 
           <div class="flex-child-50 flex-child-100-tab">
             <div class="text-align-center">
-              <div class="slider w-slider">
+              <!-- <div class="slider w-slider">
                 <div class="mask w-slider-mask">
                   <div class="slide w-slide">
                     <img src="" loading="lazy" alt="">
@@ -28,7 +28,7 @@
                 </div>
                 <div class="slide-nav w-slider-nav w-round">
                 </div>
-              </div>
+              </div> -->
               <a href="#" class="btn show-tab w-button">More ....
               </a>
             </div>
@@ -46,7 +46,7 @@
       <div class="padding-vertical padding-large">
         <div class="text-align-center">
           <div class="margin-bottom margin-medium">
-            <h1 class="heading-xlarge custom-heading-mobile-lanscape uppercase animation-slideup">
+            <h1 class="heading-xlarge custom-heading-mobile-lanscape uppercase ">
               CORE cards for
               <br> important communicating.
             </h1>

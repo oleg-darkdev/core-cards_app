@@ -8,7 +8,7 @@
       <div class="container-large">
         <div class="padding-vertical padding-large">
           <div class="text-align-center">
-            <h3 class="heading-small uppercase text-letter-spacing text-gradient animation-slideup">Lorem Ipsum has been the industry's standard
+            <h3 class="heading-small uppercase text-letter-spacing text-gradient ">Lorem Ipsum has been the industry's standard
             </h3>
             <h3 class="heading-large uppercase ">Cards categories
             </h3>
@@ -22,7 +22,7 @@
 
           <div class="flex-wrapper flex-align-center flex-justify-center flex-children-wrap-tab">
                 {#each cardCategories as {img, title, category, textColor}}
-            <div class="gallery-item animation-slideup-d300">
+            <div class="gallery-item -d300">
               <div class="margin-bottom margin-medium">
                 <img src="{img}" loading="lazy" alt="" sizes="100vw"  class="gallery-member-img">
               </div>
