@@ -11,8 +11,6 @@
         <a href="/" aria-current="page" class="brand w-nav-brand w--current">
           <img src="/images/logo.svg" loading="lazy" class='h-14' alt="logo COREcards">
         </a>
-
-
         <div class="nav-middle ">
           <div role="banner" class="navbar-2 w-nav ">
             <nav role="navigation" class="{showMenu ? 'nav-menu': ''} nav-panel" on:click={()=> showMenu = !showMenu } >
@@ -20,9 +18,11 @@
               <!-- <div class="nav-panel {showMenu ? '': ''}"> -->
                 <!-- {#if showMenu} -->
               {#each navigation as {title, link}}
-                <a href="{link}" class="nav-link w-nav-link">
-                  {title}
-                </a>
+                <div class="nav-link-wrap w-full">
+                  <a href="{link}" class="nav-link w-nav-link">
+                    {title}
+                  </a>
+                </div>
               {/each}
               <!-- {/if} -->
               <!-- </div> -->
@@ -58,6 +58,40 @@
 }
 
 
+.nav-link-wrap:nth-child(1) {
+  background-color: #43b24b;
+}
+.nav-link-wrap:nth-child(2) {
+  background-color: #29aae0;
+}
+.nav-link-wrap:nth-child(3) {
+  background-color: #fb276e;
+}
+.nav-link-wrap:nth-child(4) {
+  background-color: #f7ec13;
+}
+
+
+.w-nav-link {
+  vertical-align: top;
+  color: #fff;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.w-nav-link.w--current {
+  color: #0082f3;
+}
+
+  .nav-panel {
+    display: flex;
+    flex-direction: row;
+  }
 
 .header {
   z-index: 50;
@@ -80,6 +114,22 @@
     padding-left: 0;
     padding-right: 18px;
   }
+  .nav-link-wrap  {
+    height: 20%;
+    align-items: center;
+    display: flex;
+  }
+  .w-nav-link {
+  vertical-align: top;
+  color: #fff;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 20px;  */
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
 
   .nav-panel {
     display: none;
@@ -102,9 +152,8 @@
   text-align: center;
   background-color: #0e0e13;
   flex-flow: column;
-  justify-content: space-between;
-  align-items: stretch;
-  padding-top: 25%;
+
+  /* padding-top: 25%; */
   display: flex;
   position: absolute;
   top: 0;
@@ -126,5 +175,9 @@
   .header {
     z-index: 10;
   }
+}
+
+@media screen and (max-width: 479px) {
+
 }
 </style>

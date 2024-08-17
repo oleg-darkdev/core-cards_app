@@ -1827,22 +1827,6 @@ textarea.w-input, textarea.w-select {
   position: relative;
 }
 
-.w-nav-link {
-  vertical-align: top;
-  color: #222;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-}
-
-.w-nav-link.w--current {
-  color: #0082f3;
-}
-
 .w-nav-menu {
   float: right;
   position: relative;
@@ -2992,7 +2976,7 @@ body {
   }
 
   .nav-menu {
-    padding-top: 30%;
+    /* padding-top: 30%; */
   }
 
   .nav-link-5 {
