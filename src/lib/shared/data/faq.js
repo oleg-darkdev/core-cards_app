@@ -1,44 +1,45 @@
 const faq = [
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'What is CoreCARDS?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        `CoreCARDS is a set of 19 cards designed to visualize short phrases that are often used during workshops, meetups and video conferences.`,
       ]
     },
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'What are the cards for?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        `The cards help to visually communicate frequently occurring phrases, making the communication process more visual and structured.`,
+        'This is useful for both presenters and participants of events.',
       ]
     },
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'How can the cards be used?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        `You can show cards during: team retrospectives, training events and workshops or hackathons, lean coffee sessions, meetups, or video conferences -  to visually mark key points of communication, clarify questions, highlight important topics, or give feedback. `,
       ]
     },
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'Who are the cards intended for?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        ` The cards are suitable for facilitators, moderators, speakers and all participants of workshops, mitaps and video conferences who need to communicate effectively and keep the dialog going.`,
       ]
     },
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'Can the cards be used in online events?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        `Yes, the cards are great for use in online events such as video conferences where they can be shown via webcam or digitally.`,
       ]
     },
     {
-      q: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      q: 'What are the advantages of using cards?',
       a: [
-        `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-        'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        `Cards help to improve understanding and assimilation of information, help to structure communication and avoid misunderstandings, and provide visual emphasis on key points.`,
+      ]
+    },
+    {
+      q: 'Can I order cards with custom design or other phrases?',
+      a: [
+        `Yes, we offer the possibility to order custom cards with phrases that will be most useful for you.`,
       ]
     },
 ]
