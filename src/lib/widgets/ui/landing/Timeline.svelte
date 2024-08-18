@@ -12,14 +12,14 @@
         <div class="timeline_progress-2">
         </div>
         {#each timeline as {title, items}}
-        <div class="timeline_item">
+        <div class="timeline_item group">
           <div class="timeline_left">
-            <div class="timeline_date-text">
+            <div class="timeline_date-text text-white group-hover:text-[#f8ee26]">
               {title}
             </div>
           </div>
           <div  class="timeline_centre">
-            <div class="timeline_circle">
+            <div class="timeline_circle bg-white group-hover:bg-[#f8ee26]">
             </div>
           </div>
           <div class="timeline_right w-full">
@@ -82,7 +82,6 @@
   max-width: 15px;
   min-height: 15px;
   min-width: 15px;
-  background-color: #fff;
   border-radius: 100%;
   position: -webkit-sticky;
   position: sticky;
@@ -91,7 +90,6 @@
 }
 
 .timeline_date-text {
-  color: #fff;
   text-align: center;
   letter-spacing: -.03em;
   font-family: Akira expanded demo, sans-serif;
@@ -122,8 +120,8 @@
   z-index: -10;
   width: 4px;
   height: 100%;
-  color: #f99d1c;
-   background-color: #f99d1c;
+  color: #f99d1b;
+   background-color: #f99d1b;
   position: absolute;
 }
 @media screen and (max-width: 991px) {

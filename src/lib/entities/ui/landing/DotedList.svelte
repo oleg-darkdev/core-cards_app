@@ -6,8 +6,8 @@
 <div class="margin-bottom-xlarge ">
   <ul role="list" class="list w-full">
     {#each items as item}
-      <li class="w-full pb-4 justify-start  flex flex-row">
-        <div class="list_circle mr-6 mt-2"/>
+      <li class="group w-full pb-4 justify-start  flex flex-row">
+        <div class="list_circle bg-white transition duration-300 ease-in-out delay-150 group-hover:bg-[#e84926] mr-6 mt-2"/>
         <p class='paragraph w-full text-start'>{item}</p>
       </li>
     {/each}
@@ -25,10 +25,10 @@
   max-width: 15px;
   min-height: 15px;
   min-width: 15px;
-  background-color: #fff;
   border-radius: 100%;
   box-shadow: 0 0 0 8px #0a0a0a;
 }
+
 
 .list {
   padding-left: 40px;
