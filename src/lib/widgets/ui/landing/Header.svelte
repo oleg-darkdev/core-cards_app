@@ -34,7 +34,7 @@
             <img src="/images/621620a6ca1ed8d5f16422ef_IG-icon.svg" loading="lazy" width="24" alt="instagram icon">
           </a>
         </div>
-        <div class="h-14 w-14 pt-4 menu-btn" on:click={()=> showMenu = !showMenu }>
+        <div class="h-14 w-14 pt-4 menu-btn hidden" on:click={()=> showMenu = !showMenu }>
           <img src="/images/menu-icon.svg" class='h-full w-full' alt="menu">
         </div>
       </div>
