@@ -26,8 +26,10 @@
 
     <div class="mask-images  relative top-0 left-0 overflow-hidden flex flex-row z-1 w-full h-full">
       {#each cards.cards as {img, title, desc}, id}
-        <div class="{id % 2 === 0 ? 'translate-y-4': '-translate-y-4'} slide-2 w-slide rounded-xl">
-          <img src="{img}" loading="lazy" width="383" alt="{title} card image" class="image-3 rounded-xl">
+        <div class="{id % 2 === 0 ? 'translate-y-4': '-translate-y-4'} slide-2  w-slide rounded-xl">
+          <div class="lg:h-80 lg:w-64 md:w-40 md:h-64 h-64 w-40 ">
+          <img src="{img}" loading="lazy" width="383" alt="{title} card image" class="object-cover object-center w-full h-full rounded-xl">
+        </div>
         </div>
       {/each}
 	    </div>
