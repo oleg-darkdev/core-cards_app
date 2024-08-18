@@ -1167,7 +1167,7 @@ textarea.w-input, textarea.w-select {
 
 
 .w-slider {
-  height: 300px;
+  /* height: 300px; */
   text-align: center;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1175,7 +1175,7 @@ textarea.w-input, textarea.w-select {
   background: #ddd;
   position: relative;
 }
-
+/*
 .w-slider-mask {
   z-index: 1;
   white-space: nowrap;
@@ -1184,17 +1184,9 @@ textarea.w-input, textarea.w-select {
   left: 0;
   right: 0;
   overflow: hidden;
-}
+} */
 
-.w-slide {
-  vertical-align: top;
-  width: 100%;
-  height: 100%;
-  white-space: normal;
-  text-align: left;
-  display: inline-block;
-  position: relative;
-}
+
 
 .w-slider-nav {
   z-index: 2;
@@ -2466,7 +2458,7 @@ body {
 
 .section-about {
   background-color: #0e0e13;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .background-color-black {
@@ -2606,16 +2598,7 @@ body {
   overflow: visible;
 }
 
-.slide-2 {
-  width: 100%;
-  max-width: none;
-  text-align: center;
-  object-fit: cover;
-  background-color: rgba(0, 0, 0, 0);
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 15px;
-}
+
 
 .image-3 {
   object-fit: cover;
@@ -2623,23 +2606,6 @@ body {
 }
 
 
-
-.continous-moving-slider {
-  z-index: 0;
-  width: 100%;
-  height: 530px;
-  background-color: #0e0e13;
-  overflow: hidden;
-}
-
-.continous-moving-slider.hide {
-  display: none;
-}
-
-.mask-images {
-  width: 20%;
-  overflow: visible;
-}
 
 .bold-text-2 {
   font-weight: 700;
@@ -2665,17 +2631,7 @@ body {
   position: relative;
 }
 
-.gradient-slider {
-  z-index: 4;
-  height: 62vh;
-  background-image: linear-gradient(270deg, rgba(14, 14, 19, .82) 35%, rgba(0, 0, 0, 0) 44%), linear-gradient(to right, rgba(14, 14, 19, .71) 35%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0) 78%);
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+
 
 
 
@@ -2873,10 +2829,6 @@ body {
     width: 50%;
   }
 
-  .mask-images {
-    width: 35%;
-  }
-
 
   .gradient-slider {
     background-image: linear-gradient(270deg, rgba(14, 14, 19, .82) 25%, rgba(0, 0, 0, 0) 36%), linear-gradient(to right, rgba(14, 14, 19, .71) 31%, rgba(0, 0, 0, 0) 38%, rgba(0, 0, 0, 0) 78%);
@@ -2927,7 +2879,7 @@ body {
     font-size: 1rem;
   }
 
-  .mask, .mask-2, .mask-images {
+  .mask, .mask-2 {
     width: 100%;
   }
 
@@ -3064,10 +3016,6 @@ body {
 
   .bg-video-wrapper {
     text-align: center;
-  }
-
-  .mask-images {
-    width: 100%;
   }
 
   .gradient-slider {
