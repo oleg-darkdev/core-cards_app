@@ -25,18 +25,16 @@
       let:showNextPage
       > -->
 
-    <div class="mask-images w-slider-mask">
-
-      {#each yellowCards.cards as {img, title, desc}}
-      <div class="slide-2 w-slide rounded-xl">
-        <img src="{img}" loading="lazy" width="383" alt="{title} card image" class="image-3 rounded-xl">
-      </div>
+    <div class="mask-images h-auto w-slider-mask ">
+      {#each yellowCards.cards as {img, title, desc}, id}
+        <div class="{id % 2 === 0 ? 'translate-y-4': '-translate-y-4'}   slide-2 w-slide rounded-xl">
+          <img src="{img}" loading="lazy" width="383" alt="{title} card image" class="image-3 rounded-xl">
+        </div>
       {/each}
-
 	    </div>
             <!-- </Carousel>
       {/if} -->
-    <div class="left-arrow w-slider-arrow-left">
+    <!-- <div class="left-arrow w-slider-arrow-left">
       <div class="w-icon-slider-left">
       </div>
     </div>
@@ -45,7 +43,7 @@
       </div>
     </div>
     <div class="slide-nav w-slider-nav w-round">
-    </div>
+    </div> -->
   </div>
 </section>
 
