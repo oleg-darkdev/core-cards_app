@@ -8,8 +8,8 @@ import Team from './ui/landing/Team.svelte';
 import Gallery from './ui/landing/Gallery.svelte';
 import Faq from './ui/landing/Faq.svelte';
 import Contact from './ui/landing/Contact.svelte';
-// import Gallery from './ui/landing/Gallery.svelte';
-// import Gallery from './ui/landing/Gallery.svelte';
+import Community from './ui/landing/Community.svelte';
+import GalleryWithoutShadow from './ui/landing/GalleryWithoutShadow.svelte';
 
 
-export { Footer, Header, About, Hero, Timeline, Team, Categories ,Gallery, Faq, Contact};
+export { Footer, Header, Community, About, Hero, Timeline, Team, Categories ,Gallery, GalleryWithoutShadow, Faq, Contact};
