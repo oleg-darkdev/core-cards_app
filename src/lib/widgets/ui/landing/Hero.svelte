@@ -48,7 +48,7 @@
           <div class="margin-bottom margin-medium">
             <h1 class="heading-xlarge custom-heading-mobile-lanscape uppercase ">
               CORE cards for
-              <br> important communicating.
+              <br> important talks.
             </h1>
           </div>
           <a href="#about" class="btn bg-blue  w-button">
