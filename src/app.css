@@ -1178,7 +1178,6 @@ textarea.w-input, textarea.w-select {
 
 .w-slider-mask {
   z-index: 1;
-  height: 100%;
   white-space: nowrap;
   display: block;
   position: relative;
