@@ -126,19 +126,27 @@ const blueCards = {
 
 const greenCards = {
   title: '',
-  cards: [ {
+  cards: [
+  {
+    title: 'I like this.',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    img: '/images/cards/like.png',
+    brandColor: 'bg-green', textColor: 'text-green',id: 21,
+    category: 'green'
+    },
+  {
     title: 'Enough! Let`s move on.',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     img: '/images/cards/elmo.png',
     brandColor: 'bg-green',
     textColor: 'text-green', id: 20,
     category: 'green'
-  },
-  {
-    title: 'I like this.',
+    },
+    {
+    title: 'Ok, i agree.',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    img: '/images/cards/like.png',
-    brandColor: 'bg-green', textColor: 'text-green',id: 21,
+    img: '/images/cards/ok.png',
+    brandColor: 'bg-green',  textColor: 'text-green', id: 23,
     category: 'green'
   },
   {
@@ -148,13 +156,7 @@ const greenCards = {
     brandColor: 'bg-green', textColor: 'text-green', id: 22,
     category: 'green'
   },
-  {
-    title: 'Ok, i agree.',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    img: '/images/cards/ok.png',
-    brandColor: 'bg-green',  textColor: 'text-green', id: 23,
-    category: 'green'
-  },
+
   {
     title: 'Green light.',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -173,6 +175,13 @@ const orangeCards = {
     img: '/images/cards/1_minute.png',
     brandColor: 'bg-orange', textColor: 'text-orange', id: 30,
     category: 'orange'
+    },
+    {
+    title: 'Speed up, please.',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    img: '/images/cards/speedUp.png',
+    brandColor: 'bg-orange', textColor: 'text-orange', id: 32,
+    category: 'orange'
   },
   {
     title: '5 minutes to end.',
@@ -181,13 +190,7 @@ const orangeCards = {
     brandColor: 'bg-orange', textColor: 'text-orange', id: 31,
     category: 'orange'
   },
-  {
-    title: 'Speed up, please.',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    img: '/images/cards/speedUp.png',
-    brandColor: 'bg-orange', textColor: 'text-orange', id: 32,
-    category: 'orange'
-  },]
+]
 };
 
 const redCards = {
