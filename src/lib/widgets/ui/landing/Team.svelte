@@ -54,10 +54,10 @@
                 <img  src="images/oleg-darkdev.jpg" loading="lazy" alt="Oleg Medvedev photo"   class="team-member-img">
               </div>
               <div class="team-social-links">
-                <a href="https://github.com/oleg-darkdev" target="_blank" class="sm-icon-container w-inline-block">
+                <a href="https://github.com/oleg-darkdev" target="_blank" class="transition duration-300 ease-in-out delay-150 transform  hover:scale-125  sm-icon-container w-inline-block">
                   <img src="/images/github-icon.svg" loading="lazy" width="25" alt="github icon">
                 </a>
-                <a href="https://www.linkedin.com/in/oleg-darkdev" target="_blank" class="sm-icon-container w-inline-block">
+                <a href="https://www.linkedin.com/in/oleg-darkdev" target="_blank" class="sm-icon-container transition duration-300 ease-in-out delay-150 transform  hover:scale-125 w-inline-block">
                   <img src="/images/linkedin-icon.svg" loading="lazy" width="25" alt="linkedin icon">
                 </a>
               </div>

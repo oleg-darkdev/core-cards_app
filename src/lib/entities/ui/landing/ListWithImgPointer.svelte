@@ -10,7 +10,7 @@
 
   <ul role="list" class="list w-full">
     {#each items as item}
-      <li class="w-full pb-4 justify-start content-center items-center flex flex-row">
+      <li class="w-full transition duration-300 ease-in-out delay-150 transform  hover:scale-110 pb-4 justify-start content-center items-center flex flex-row">
         <div class="avatar mr-8">
           <div class="w-12 h-12 rounded-full">
             <img src="{item.img}" />
