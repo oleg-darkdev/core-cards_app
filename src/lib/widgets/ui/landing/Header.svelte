@@ -19,7 +19,7 @@
                 <!-- {#if showMenu} -->
               {#each navigation as {title, link}}
                 <div class="nav-link-wrap w-full">
-                  <a href="{link}" class="nav-link w-nav-link">
+                  <a href="{link}" class="nav-link w-nav-link ">
                     {title}
                   </a>
                 </div>
@@ -58,20 +58,6 @@
 }
 
 
-.nav-link-wrap:nth-child(1) {
-  background-color: #43b24b;
-}
-.nav-link-wrap:nth-child(2) {
-  background-color: #29aae0;
-}
-.nav-link-wrap:nth-child(3) {
-  background-color: #fb276e;
-}
-.nav-link-wrap:nth-child(4) {
-  background-color: #f7ec13;
-}
-
-
 .w-nav-link {
   vertical-align: top;
   color: #fff;
@@ -101,14 +87,35 @@
   padding-bottom: 15px;
   position: fixed;
 }
+
+
+.w-nav-link:hover  {
+  color: #29aae0;
+}
+
+
 @media screen and (min-width: 991px) {
   .menu-btn {
     display: none;
   }
-
 }
 
+
 @media screen and (max-width: 991px) {
+    .nav-link-wrap:nth-child(1) {
+      background-color: #43b24b;
+    }
+    .nav-link-wrap:nth-child(2) {
+      background-color: #29aae0;
+    }
+    .nav-link-wrap:nth-child(3) {
+      background-color: #fb276e;
+    }
+    .nav-link-wrap:nth-child(4) {
+      background-color: #f7ec13;
+    }
+
+
   .menu-button-3 {
     z-index: 300;
     padding-left: 0;
@@ -169,6 +176,7 @@
     padding-right: 12px;
   }
   .nav-middle {
+    display: none;
     flex: 0 auto;
     justify-content: space-between;
   }
