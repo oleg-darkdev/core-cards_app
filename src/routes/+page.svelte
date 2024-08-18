@@ -1,6 +1,6 @@
 <script>
-	// import {  } from '$lib/shared';
-	import { Footer, Header, About, Hero, Timeline, Team, Gallery, Faq, Contact,} from '$lib/widgets';
+  import {redCards, yellowCards, blueCards, greenCards, orangeCards} from '$shared';
+	import { Footer, Header, About, Community, GalleryWithoutShadow, Hero, Timeline, Team, Gallery, Faq, Contact,} from '$lib/widgets';
   // import {  } from '$lib/entities'
 </script>
 
@@ -15,9 +15,11 @@
   <div class="main-wrapper">
     <Hero />
 
+    <Gallery cards={greenCards}/>
 
     <About />
 
+    <GalleryWithoutShadow cards={redCards}/>
 
     <section class="section-roadmap relative">
       <div class="background-color-black">
@@ -45,13 +47,20 @@
 
     <Timeline />
 
+    <Gallery cards={yellowCards}/>
+
+
+    <Community />
+
+    <GalleryWithoutShadow cards={blueCards}/>
 
     <Team />
 
-
-    <Gallery />
+    <!-- <Gallery cards={redCards}/> -->
 
     <Faq />
+
+    <GalleryWithoutShadow cards={orangeCards}/>
 
     <Contact />
   </div>
