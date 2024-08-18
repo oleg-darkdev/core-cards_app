@@ -3,7 +3,7 @@
 </script>
 
 
-<section id="faq" class="section-faq">
+<section id="faq" class="py-2">
   <div class="background-color-black">
     <div class="page-padding">
       <div class="padding-vertical padding-large">
