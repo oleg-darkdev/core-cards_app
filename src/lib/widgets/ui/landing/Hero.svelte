@@ -52,7 +52,8 @@
             </h1>
           </div>
           <a href="#about" class="btn bg-blue  w-button">
-            More ....
+            get started
+            <!-- <img src="/images/arrow-down.svg" class='h-4 w-4' alt="arrow down"> -->
           </a>
         </div>
       </div>
